@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cadre{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 720px;
+    width: 1280px;
+    transform: scale(0.8);
+    position: relative;
+    overflow: hidden;
+}
+.imgParent{
+    width: fit-content;
+    display: flex;
+    transition: 0.5s transform;
+}.imgParent > img{
+    height: 720px;
+    width: 1280px;
+}
